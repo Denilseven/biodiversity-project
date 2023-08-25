@@ -53,19 +53,6 @@ p {
 #header > #title {
     margin: 3rem;
 }
-#header > #quick-links {
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(0.2rem);
-    padding: 1rem;
-    margin: 3rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 1rem var(--color-green-6);
-}
-#header > #quick-links > div {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
 #content {
     color: var(--color-green-6);
     background-color: var(--color-white);
@@ -81,15 +68,7 @@ p {
 }
 
 @media (min-width: 60rem) {
-    #header > #quick-links > div  {
-        flex-direction: row;
-    }
-
     .block {
         padding: 3rem 25%;
-    }
-
-    #bullet-point {
-        display: flex;
     }
 }
