@@ -13,7 +13,6 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     z-index: 5;
-    overflow: hidden;
 }
 
 h1 {
@@ -24,12 +23,15 @@ h1 {
 }
 
 h2 {
+    font-family: 'Courgette', cursive;
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 #header {
@@ -77,6 +79,15 @@ p {
     z-index: 4;
     opacity: 0.8;
     filter: drop-shadow(0 0 2rem var(--color-green-darker));
+}
+
+#content > :nth-child(even) {
+    background: aqua;
+}
+
+.block {
+    padding: 4rem 2rem;
+    text-align: justify;
 }
 
 @media (max-width: 60rem) {
