@@ -87,6 +87,12 @@ p {
         font-size: 6rem;
     }
 
+    #header > .text {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+
     .block {
         padding: 3rem 25%;
     }
