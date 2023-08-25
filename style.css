@@ -63,7 +63,7 @@ p {
 }
 #header > #quick-links > div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1rem;
 }
 #header > #parrot-img {
@@ -93,23 +93,24 @@ p {
 }
 
 .block {
-    padding: 3rem 2rem;
+    padding: 3rem 2.5rem;
     text-align: justify;
 }
 
-@media (max-width: 60rem) {
+#bullet-point {
+    display: none;
+}
+
+@media (min-width: 60rem) {
     #header > #quick-links > div  {
-        flex-direction: column;
+        flex-direction: row;
     }
-    #header > #parrot-img {
-        right: -45%;
-    }
-    #header > #turtle-img {
-        left: -20%;
-        bottom: -10%;
+
+    .block {
+        padding: 3rem 25%;
     }
 
     #bullet-point {
-        display: none;
+        display: flex;
     }
 }
