@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 :root {
     --color-green-6: rgb(23, 61, 39);
@@ -33,6 +34,8 @@ h2 {
 }
 
 p {
+    font-family: 'Overlock', cursive;
+    font-weight: 700;
     font-size: 1rem;
     margin: 0.5rem 0;
 }
@@ -86,7 +89,7 @@ p {
 
 #content {
     color: var(--color-green-6);
-    background-color: var(--color-green-3);
+    background-color: var(--color-white);
 }
 
 .block {
