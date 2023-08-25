@@ -20,10 +20,9 @@
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
-    font-size: 4rem;
+    font-family: 'Overlock', cursive;
+    font-size: 3rem;
     text-align: center;
-    text-shadow: var(--color-green-6) 0 0 0.5rem;
 }
 
 h2 {
@@ -49,10 +48,29 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: var(--color-green-6) 0 0 0.5rem;
 }
-#header > #title {
-    margin: 3rem;
+/* #header > #title {
+    margin: 0 3rem;
+    position: relative;
+    top: 20%;
+} */
+#header > .text {
+    position: relative;
+    top: -25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 3rem;
 }
+#header > .text > p {
+    font-size: 1.4rem;
+}
+
+.lil-green {
+    color: var(--color-green-1);
+}
+
 #content {
     color: var(--color-green-6);
     background-color: var(--color-white);
@@ -68,6 +86,10 @@ p {
 }
 
 @media (min-width: 60rem) {
+    h1 {
+        font-size: 6rem;
+    }
+
     .block {
         padding: 3rem 25%;
     }
