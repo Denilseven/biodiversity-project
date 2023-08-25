@@ -40,7 +40,9 @@ p {
 }
 
 #header {
-    background-color: var(--color-green-5);
+    background-image: url('images/pexels-bruno-henrique-2578370.jpg');
+    background-size: cover;
+    background-position: center;
     color: var(--color-white);
     height: 100vh;
     min-height: fit-content;
@@ -48,20 +50,15 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: var(--color-green-6) 0 0 0.5rem;
+    text-shadow: black 0 0 0.5rem;
 }
-/* #header > #title {
-    margin: 0 3rem;
-    position: relative;
-    top: 20%;
-} */
 #header > .text {
-    position: relative;
-    top: -25%;
+    position: absolute;
+    top: 5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 3rem;
+    margin: 0 2rem;
 }
 #header > .text > p {
     font-size: 1.4rem;
