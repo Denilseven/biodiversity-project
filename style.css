@@ -89,6 +89,12 @@ p {
     aspect-ratio: 1 / 0.8;
     width: 100%;
     object-fit: cover;
+    object-position: center;
+}
+
+.blur-load {
+    background-size: cover;
+    background-position: center;
 }
 
 .footer {
@@ -159,10 +165,6 @@ p {
     #galery img {
         aspect-ratio: 1 / 0.8;
         width: 100%;
-        object-fit: cover;
-    }
-    #galery :nth-child(3) {
-        object-position: left;
     }
 
     .footer {
