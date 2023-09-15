@@ -96,6 +96,13 @@ p {
     background-size: cover;
     background-position: center;
 }
+.blur-load.loaded > img {
+    opacity: 1;
+}
+.blur-load > img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
 
 .footer {
     background-image: url('images/pexels-andre-moura-2534505.jpg');
